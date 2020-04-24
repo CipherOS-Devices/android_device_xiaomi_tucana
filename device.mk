@@ -18,5 +18,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# WiFi
+PRODUCT_PACKAGES += \
+    TocoWifiOverlay
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/toco/toco-vendor.mk)
