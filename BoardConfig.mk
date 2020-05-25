@@ -9,6 +9,9 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/toco
 
+# FOD
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.toco
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
