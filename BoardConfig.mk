@@ -11,6 +11,7 @@ DEVICE_PATH := device/xiaomi/toco
 
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.toco
+TARGET_USES_FOD_ZPOS := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
