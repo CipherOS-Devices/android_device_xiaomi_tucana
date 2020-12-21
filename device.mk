@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    libkeymaster_messages.vendor:64 \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_sm6150
 
 PRODUCT_COPY_FILES += \
