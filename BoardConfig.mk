@@ -37,6 +37,9 @@ TARGET_USES_FOD_ZPOS := true
 SOONG_CONFIG_xiaomiVars_uses_fod_extension := $(TARGET_USES_FOD_ZPOS)
 SOONG_CONFIG_xiaomiVars_fod_pos_y := 1715
 
+# FOD key for InputDispatcher to skip
+TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 338
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_tucana
 TARGET_RECOVERY_DEVICE_MODULES := libinit_tucana
