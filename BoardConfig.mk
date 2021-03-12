@@ -6,5 +6,8 @@
 
 DEVICE_PATH := device/xiaomi/toco
 
+# Screen density
+TARGET_SCREEN_DENSITY := 440
+
 # Inherit from proprietary files
 include vendor/xiaomi/toco/BoardConfigVendor.mk
