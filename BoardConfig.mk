@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/xiaomi/toco
 
+# Kernel
+TARGET_KERNEL_CONFIG := toco_defconfig
+
 # Screen density
 TARGET_SCREEN_DENSITY := 440
 
