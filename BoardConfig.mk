@@ -5,3 +5,6 @@
 #
 
 DEVICE_PATH := device/xiaomi/toco
+
+# Inherit from proprietary files
+include vendor/xiaomi/toco/BoardConfigVendor.mk
