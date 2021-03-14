@@ -1,30 +1,26 @@
-Copyright (C) 2019-2020 - The LineageOS Project
+Device configuration for Xiaomi Mi CC9 Pro/Note 10
+============================================
 
-The Xiaomi Mi 9T/Redmi K20 (codenamed _"davinci/davinciin"_) are mid range smartphones from Xiaomi.
+The Xiaomi Mi CC9 Pro/Note 10 (codenamed _"tucana"_) are mid-end smartphones from Xiaomi
 
-Both were announced and released in June 2019.
+Both Mi CC9 Pro and Mi Note 10 were announced and released in November 2019
 
 ## Device specifications
 
-| Device       | Xiaomi Mi 9T/Redmi K20                          |
-| -----------: | :---------------------------------------------- |
-| SoC          | Qualcomm SM7150-AA Snapdragon 730               |
-| CPU          | 2x2.2 GHz Kryo 470 & 6x1.8 GHz Kryo 470         |
-| GPU          | Adreno 618                                      |
-| Memory       | 6GB RAM (LPDDR4X)                               |
-| Shipped Android version | 9.0 with MIUI 10                     |
-| Storage      | 128GB UFS 2.1 flash storage                     |
-| Battery      | Non-removable Li-Po 4000 mAh                    |
-| Dimensions   | 156.7 x 74.3 x 8.8 mm                           |
-| Display      | 2340 x 1080 (19.5:9), 6.3  inch                 |
-| Rear camera 1 | 48 MP, f/1.8, Dual-LED flash, HDR, panorama    |
-| Rear camera 2 | 8 MP, f/2.4                                    |
-| Rear camera 3 | 13 MP, f/2.4                                   |
-| Front camera | 20MP, f/2.2 Motorized pop-up, 1080p@30fps       |
+Basic   | Spec Sheet
+-------:|:-------------------------
+SoC     | Qualcomm SDM730G Snapdragon 730G
+CPU     | Octa-core (1x2.96 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.78 GHz Kryo 485)
+GPU     | Adreno 618
+Memory  | 6/8 GB RAM
+Shipped Android Version | 9.0 with MIUI 11
+Storage | 128/256 GB
+Battery | Non-removable Li-Ion 5260 mAh battery
+Display | 1080 x 2340 pixels, 19.5:9 ratio, 6.47 inches, AMOLED (~398 ppi density)
 
-## Device picture
+## Device Picture
 
-![Xiaomi Mi 9T/Redmi K20](https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-k20/blue-slider-1_03.png "Xiaomi Redmi K20 in blue")
+![Xiaomi Mi Note 10](https://xiaomi-mi.com/uploads/CatalogueImage/mi-note-10%20(2)_17838_1573854333.jpg "Xiaomi Mi Note 10 in black")
 
 #### Proprietary-files.txt
-All unpinned blobs are extracted from [miui_DAVINCI_20.9.3_c853173909_10.0](https://bigota.d.miui.com/20.9.3/miui_DAVINCI_20.9.3_c853173909_10.0.zip).
+All unpinned blobs are extracted from [miui_TUCANA_V12.1.5.0.RFDCNXM_20dc1d4f76_11.0](https://xiaomifirmwareupdater.com/miui/tucana/stable%20beta/V12.1.5.0.RFDCNXM/).

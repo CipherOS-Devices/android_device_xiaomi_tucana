@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=davinci
+export DEVICE=tucana
 export DEVICE_COMMON=sm6150-common
 export VENDOR=xiaomi
 

@@ -13,14 +13,14 @@ TARGET_SCREEN_DENSITY := 440
 # Inherit from sm6150-common
 include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/davinci
+DEVICE_PATH := device/xiaomi/tucana
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
+TARGET_OTA_ASSERT_DEVICE := tucana
 
 # Audio
 AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
@@ -29,27 +29,27 @@ AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 TARGET_SURFACEFLINGER_FOD_LIB := //$(COMMON_PATH):libfod_extension
 TARGET_USES_FOD_ZPOS := true
 SOONG_CONFIG_xiaomiVars_uses_fod_extension := $(TARGET_USES_FOD_ZPOS)
-SOONG_CONFIG_xiaomiVars_fod_pos_y := 1931
+SOONG_CONFIG_xiaomiVars_fod_pos_y := 1715
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_davinci
-TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
+TARGET_INIT_VENDOR_LIB := libinit_tucana
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tucana
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_CMDLINE += androidboot.hardware.revision=V1
-TARGET_KERNEL_CONFIG := vendor/lineage_davinci_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+TARGET_KERNEL_CONFIG := vendor/lineage_tucana-oss_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 ODM_MANIFEST_SKUS += \
-    davinci
+    tucana
 
-ODM_MANIFEST_DAVINCI_FILES := $(DEVICE_PATH)/manifest_davinci.xml
+ODM_MANIFEST_TUCANA_FILES := $(DEVICE_PATH)/manifest_tucana.xml
 
 # NFC
 TARGET_USES_NQ_NFC := true
 
 # Inherit from the proprietary version
-include vendor/xiaomi/davinci/BoardConfigVendor.mk
+include vendor/xiaomi/tucana/BoardConfigVendor.mk
