@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm6150-ext \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.toco
 
 PRODUCT_COPY_FILES += \
