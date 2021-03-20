@@ -76,9 +76,7 @@ PRODUCT_PACKAGES += \
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
-    WifiOverlayF10C \
-    WifiOverlayF10G \
-    WifiOverlayF10I
+    WifiOverlayF4
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/tucana/tucana-vendor.mk)
