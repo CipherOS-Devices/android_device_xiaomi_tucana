@@ -194,11 +194,6 @@ vendor/lib64/libmibokeh_712.so
 #vendor/lib64/libSNPE.so
 vendor/lib64/libXMFD_AgeGender.so
 
-# Display calibration
-vendor/etc/qdcm_calib_data_xiaomi_f4_36_02_0b_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_f4_41_06_0a_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_f4_42_06_0c_fhd_cmd_dsi_panel.xml
-
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so
 vendor/lib64/libgf_hal.so
