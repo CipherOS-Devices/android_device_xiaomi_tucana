@@ -369,11 +369,6 @@ vendor/firmware/ipa_fws.mdt
 # NFC
 vendor/lib/libsn100u_fw.so
 
-# QDCM
-vendor/etc/qdcm_calib_data_xiaomi_f4_36_02_0b_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_f4_41_06_0a_fhd_cmd_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_f4_42_06_0c_fhd_cmd_dsi_panel.xml
-
 # Sensor
 vendor/bin/sensors.qti
 vendor/etc/elliptic_sensor.xml
