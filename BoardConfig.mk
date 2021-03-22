@@ -37,7 +37,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_tucana
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG := vendor/lineage_tucana-oss_defconfig
 
 # HIDL
