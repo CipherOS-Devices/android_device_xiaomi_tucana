@@ -16,6 +16,8 @@ vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so
 vendor/lib/rfsa/adsp/libremosaichvx_skel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
 vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
@@ -183,8 +185,6 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/LDC_table_src1.dat
 vendor/etc/camera/LDC_table_src2.dat
-vendor/etc/camera/libsnpe_dsp_v65_domains_v2_skel.so
-vendor/etc/camera/libsnpe_dsp_v66_domains_v2_skel.so
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
 vendor/etc/camera/megviifacepp_0_5_2_model
@@ -216,7 +216,6 @@ vendor/firmware/tucana_tele4x_ois.mem
 vendor/firmware/tucana_tele4x_ois.prog
 
 # Camera (libarcsoft)
-lib64/libarc_layer_sgl.so
 vendor/lib64/libarcmulticamsat.so
 vendor/lib64/libarcsoft_beautyshot.so
 vendor/lib64/libarcsoft_bodyslim.so
@@ -304,6 +303,7 @@ vendor/lib64/camera.device@3.5-external-impl.so
 vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/camera.device@3.6-external-impl.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+vendor/lib64/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so
 
 # Display calibration
