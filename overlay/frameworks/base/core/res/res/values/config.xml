@@ -41,7 +41,7 @@
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
   
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">35.0dip</dimen>
+    <dimen name="status_bar_height_portrait">72.0px</dimen> 
     
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
