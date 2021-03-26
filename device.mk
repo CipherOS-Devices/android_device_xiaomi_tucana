@@ -27,7 +27,10 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio_amplifier.sm6150
+    audio_amplifier.sm6150 \
+    android.hardware.audio.service \
+    libqcomvoiceprocessingdescriptors \
+    tinymix
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
