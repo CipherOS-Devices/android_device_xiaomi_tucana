@@ -44,8 +44,11 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # Init scripts
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.tucana.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tucana.rc
+PRODUCT_PACKAGES += \
+    capture.sh \
+    init.qcom.sensors.sh \
+    init.tucana.rc \
+    playback.sh
 
 # NFC
 PRODUCT_SOONG_NAMESPACES += \
