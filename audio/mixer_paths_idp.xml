@@ -395,6 +395,32 @@
     <ctl name="IIR0 INP1 MUX" value="ZERO"/>
     <ctl name="IIR0 INP2 MUX" value="ZERO"/>
     <ctl name="IIR0 INP3 MUX" value="ZERO"/>
+    
+    <!-- Add the Ultrasound mixer controls -->
+    <ctl name="Ultrasound Custom Setting 1" value="0" />
+    <ctl name="Ultrasound Enable" value="Off" />
+    <ctl name="Ultrasound RampDown" value="Off"/>
+    <ctl name="Ultrasound Event" value="0"/>
+    <ctl name="Ultrasound Mode" value="0"/>
+    <ctl name="Ultrasound Rx Port" value="Off"/>
+    <ctl name="Ultrasound Microphone Index" value="0"/>
+    <ctl name="Ultrasound Suspend" value="0"/>
+    <ctl name="Ultrasound ReportNone" value="0"/>
+    <ctl name="RX_CDC_DMA_RX_1 SampleRate" value="KHZ_96" />
+    <ctl name="RX_CDC_DMA_RX_1 Channels" value="One" />
+    <ctl name="TX_CDC_DMA_TX_4 Channels" value="One" />
+    <ctl name="TX_CDC_DMA_TX_4 SampleRate" value="KHZ_96" />
+
+    <!-- for mius start -->
+    <ctl name="Mi_Ultrasound Enable" value="Off" />
+    <ctl name="Mi_Ultrasound RampDown" value="Off"/>
+    <ctl name="Mi_Ultrasound Event" value="0"/>
+    <ctl name="Mi_Ultrasound Mode" value="0"/>
+    <ctl name="Mi_Ultrasound Rx Port" value="Off"/>
+    <ctl name="Mi_Ultrasound Microphone Index" value="0"/>
+    <ctl name="Mi_Ultrasound Suspend" value="0"/>
+    <ctl name="Mi_Ultrasound ReportNone" value="0"/>
+    <!-- for mius end -->
 
     <!-- vbat related data doesn't exist -->
 
@@ -3134,4 +3160,142 @@
 
     <path name="call-proxy-in">
     </path>
+
+    <path name="ultrasound-capture-input">
+    </path>
+
+    <path name="ultrasound-proximity">
+        <ctl name="Ultrasound Enable" value="On" />
+        <ctl name="Ultrasound Mode" value="760" />
+        <ctl name="Ultrasound Debug Mode" value="1" />
+        <ctl name="Ultrasound Log Level" value="7" />
+        <ctl name="Ultrasound Custom Setting 1" value="1" />
+    </path>
+
+    <path name="ultrasound-proximity-output">
+        <ctl name="RX_MACRO RX2 MUX" value="AIF2_PB" />
+        <ctl name="RX INT0_2 MUX" value="RX2" />
+    </path>
+
+    <path name="ultrasound-proximity-output handset">
+        <ctl name="RX_MACRO RX2 MUX" value="AIF2_PB" />
+        <ctl name="RX INT0_2 MUX" value="RX2" />
+    </path>
+
+    <path name="ultrasound-proximity-output headphones">
+        <ctl name="RX_MACRO RX5 MUX" value="AIF2_PB" />
+    </path>
+
+    <path name="ultrasound-proximity-output headset">
+        <ctl name="RX_MACRO RX5 MUX" value="AIF2_PB" />
+    </path>
+
+    <path name="ultrasound-proximity-output speaker">
+    </path>
+
+    <path name="ultrasound-proximity-output speaker-and-headphones">
+    </path>
+
+    <path name="ultrasound-proximity-input">
+    </path>
+
+    <path name="ultrasound-cover1">
+        <ctl name="Ultrasound Enable" value="On"/>
+        <!--  release mode  -->
+        <!--ctl name="Ultrasound Mode" value="584"/-->
+        <!--  debug mode  -->
+        <ctl name="Ultrasound Mode" value="764"/>
+        <ctl name="Ultrasound Debug Mode" value="1" />
+        <ctl name="Ultrasound Log Level" value="7" />
+        <ctl name="Ultrasound Custom Setting 1" value="3" />
+    </path>
+
+    <path name="ultrasound-cover1-output">
+        <ctl name="RX_MACRO RX2 MUX" value="AIF2_PB" />
+        <ctl name="RX INT0_2 MUX" value="RX2" />
+    </path>
+
+    <path name="ultrasound-cover1-output handset">
+        <ctl name="RX_MACRO RX2 MUX" value="AIF2_PB" />
+        <ctl name="RX INT0_2 MUX" value="RX2" />
+    </path>
+
+    <path name="ultrasound-cover1-output headphones">
+    </path>
+
+    <path name="ultrasound-cover1-output headset">
+    </path>
+
+    <path name="ultrasound-cover1-input">
+        <!--  mixer controls for TX use-case  -->
+    </path>
+
+    <path name="ultrasound-rampdown">
+        <ctl name="Ultrasound RampDown" value="On"/>
+    </path>
+
+    <path name="ultrasound-screen-on">
+        <ctl name="Ultrasound Event" value="1"/>
+    </path>
+
+    <path name="ultrasound-output">
+        <ctl name="Ultrasound Enable" value="On" />
+        <ctl name="RX_CDC_DMA_RX_1 SampleRate" value="KHZ_96" />
+        <ctl name="RX_CDC_DMA_RX_1 Channels" value="One" />
+        <ctl name="RX_MACRO RX2 MUX" value="AIF2_PB" />
+        <ctl name="RX INT0_2 MUX" value="RX2" />
+        <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
+        <ctl name="EAR_RDAC Switch" value="1" />
+        <ctl name="EAR PA GAIN" value="G_6_DB" />
+        <ctl name="RX_EAR Mode" value="ON" />
+    </path>
+
+    <path name="ultrasound-output-cover-headphone">
+        <ctl name="RX_MACRO RX5 MUX" value="AIF2_PB" />
+    </path>
+
+    <path name="ultrasound-input">
+        <ctl name="TX_CDC_DMA_TX_4 Channels" value="One" />
+        <ctl name="TX_CDC_DMA_TX_4 SampleRate" value="KHZ_96" />
+        <ctl name="TX_AIF2_CAP Mixer DEC4" value="1" />
+        <ctl name="TX DEC4 MUX" value="SWR_MIC" />
+        <ctl name="TX SMIC MUX4" value="ADC3" />
+        <ctl name="ADC3_MIXER Switch" value="1" />
+        <ctl name="ADC3 Volume" value="8" />
+    </path>
+
+    <path name="ultrasound-on">
+        <ctl name="Ultrasound Rx Port" value="On" />
+    </path>
+
+    <path name="ultrasound-output-stereo">
+        <!--  mixer controls for receiver/speaker stereo mode  -->
+    </path>
+
+    <path name="ultrasound-secondary-input">
+        <ctl name="TX_CDC_DMA_TX_4 Channels" value="Two" />
+        <ctl name="TX_CDC_DMA_TX_4 SampleRate" value="KHZ_96" />
+
+        <ctl name="TX_AIF2_CAP Mixer DEC3" value="1" />
+        <ctl name="TX DEC3 MUX" value="SWR_MIC" />
+        <ctl name="TX SMIC MUX3" value="ADC3" />
+        <ctl name="ADC3_MIXER Switch" value="1" />
+
+        <ctl name="TX_AIF2_CAP Mixer DEC2" value="1"/>
+        <ctl name="TX DEC2 MUX" value="SWR_MIC"/>
+        <ctl name="TX SMIC MUX2" value="ADC0"/>
+        <ctl name="ADC1_MIXER Switch" value="1" />
+
+        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC3 Volume" value="8" />
+    </path>
+
+    <path name="ultrasound-suspend">
+        <ctl name="Ultrasound Suspend" value="1"/>
+    </path>
+
+    <path name="ultrasound-stop-report">
+        <ctl name="Ultrasound ReportNone" value="1"/>
+    </path>
+
 </mixer>
