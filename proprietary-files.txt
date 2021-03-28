@@ -52,6 +52,10 @@ vendor/lib64/hw/audio.primary.sm6150.so
 vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.usb.default.so
 
+# Bluetooth
+vendor/lib/liba2dpoffload.so
+vendor/lib64/liba2dpoffload.so
+
 # Camera
 vendor/lib/libswvdec.so
 vendor/lib64/hw/camera.qcom.so
