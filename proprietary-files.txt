@@ -29,6 +29,7 @@ vendor/firmware/tfa98xx.cnt
 
 # Audio
 vendor/bin/audioflacapp
+vendor/lib/vndk/libxlog.so
 vendor/lib/libadm.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libaudioconfigstore.so
