@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
 # Init scripts
 PRODUCT_PACKAGES += \
     capture.sh \
+    init.fastcharge.sh \
     init.qcom.sensors.sh \
     init.tucana.rc \
     playback.sh
