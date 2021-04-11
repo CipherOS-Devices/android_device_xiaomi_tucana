@@ -23,4 +23,4 @@ Display | 1080 x 2340 pixels, 19.5:9 ratio, 6.47 inches, AMOLED (~398 ppi densit
 ![Xiaomi Mi Note 10](https://xiaomi-mi.com/uploads/CatalogueImage/mi-note-10%20(2)_17838_1573854333.jpg "Xiaomi Mi Note 10 in black")
 
 #### Proprietary-files.txt
-All unpinned blobs are extracted from [miui_TUCANA_21.4.1_1782c3d3e3_11.0](https://xiaomifirmwareupdater.com/miui/tucana/weekly/21.4.1/).
+All unpinned blobs are extracted from [miui_TUCANA_21.4.7_36605b32ca_11.0](https://xiaomifirmwareupdater.com/miui/tucana/weekly/21.4.7/).
