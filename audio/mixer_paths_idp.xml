@@ -349,8 +349,8 @@
     <ctl name="TX_DEC6 Volume" value="84"/>
     <ctl name="TX_DEC7 Volume" value="84"/>
 
-    <ctl name="ADC1 Volume" value="8"/>
-    <ctl name="ADC2 Volume" value="8"/>
+    <ctl name="ADC1 Volume" value="18"/>
+    <ctl name="ADC2 Volume" value="18"/>
     <ctl name="ADC3 Volume" value="8"/>
 
     <!-- Compander controls don't exist-->
@@ -2758,8 +2758,8 @@
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1"/>
         <ctl name="ADC2_MIXER Switch" value="1"/>
         <ctl name="ADC2 MUX" value="INP3"/>
-        <ctl name="ADC2 Volume" value="6"/>
-        <ctl name="ADC1 Volume" value="6"/>
+        <ctl name="ADC2 Volume" value="20"/>
+        <ctl name="ADC1 Volume" value="20"/>
     </path>
 
     <path name="headphones">
