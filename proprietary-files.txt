@@ -80,13 +80,10 @@ vendor/lib64/libflaw.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libHalSuperSensorServerCWrapper.so
-vendor/lib64/libhta_hexagon_runtime.so
-vendor/lib64/libhexagon_nn_stub.so
 vendor/lib64/libmegface.so
 vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libnanopb.so
-vendor/lib64/libnpu.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaichvx_stub.so
 vendor/lib64/libremosaiclib.so
