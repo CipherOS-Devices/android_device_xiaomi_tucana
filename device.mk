@@ -50,7 +50,7 @@ PRODUCT_PACKAGES += \
     capture.sh \
     init.fastcharge.sh \
     init.qcom.sensors.sh \
-    init.tucana.rc \
+    init.target.rc \
     playback.sh
 
 # IR
