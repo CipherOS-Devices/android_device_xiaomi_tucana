@@ -29,3 +29,13 @@
 
 on post-fs-data
     mkdir /data/vendor/nfc 0770 nfc nfc
+
+on property:sys.boot_completed=1
+    start init-fastcharge-sh
+
+service init-fastcharge-sh /vendor/bin/init.fastcharge.sh
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
