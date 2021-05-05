@@ -43,12 +43,12 @@ BOARD_KERNEL_BASE := 0x00000000
 TARGET_KERNEL_CONFIG := vendor/lineage_tucana-oss_defconfig
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 ODM_MANIFEST_SKUS += \
     tucana
 
-ODM_MANIFEST_TUCANA_FILES := $(DEVICE_PATH)/manifest_tucana.xml
+ODM_MANIFEST_TUCANA_FILES := $(DEVICE_PATH)/configs/hidl/manifest_tucana.xml
 
 # NFC
 TARGET_USES_NQ_NFC := true
