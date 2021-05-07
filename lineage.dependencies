@@ -3,7 +3,7 @@
         "remote":       "github",
         "repository":   "alibei/android_device_xiaomi_sm6150-common-oss",
         "target_path":  "device/xiaomi/sm6150-common",
-        "revision":     "lineage-18.1"
+        "revision":     "CipherOS-R"
     },
     {
         "remote":       "github",
