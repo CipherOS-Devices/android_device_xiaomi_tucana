@@ -15,3 +15,7 @@ PRODUCT_NAME := lineage_tucana
 PRODUCT_DEVICE := tucana
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Maintainer
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cipher.maintainer=alibei
