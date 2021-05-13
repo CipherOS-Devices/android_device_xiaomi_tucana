@@ -303,3 +303,6 @@ vendor/lib64/libthermalclient.so
 vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
+
+# Vibrator firmware
+vendor/firmware/drv2604.bin
