@@ -18,12 +18,6 @@
         "revision":     "lineage-18.1"
     }
     {
-        "remote":       "github",
-        "repository":   "LineageOS/android_vendor_qcom_opensource_healthd-ext",
-        "target_path":  "vendor/qcom/opensource/healthd-ext",
-        "revision":     "lineage-18.1"
-    }
-    {
         "remote":       "gitlab",
         "repository":   "alibei/android_vendor_xiaomi-oss",
         "target_path":  "vendor/xiaomi",
