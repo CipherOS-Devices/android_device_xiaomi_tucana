@@ -1,9 +1,9 @@
 [
     {
         "remote":       "github",
-        "repository":   "alibei/android_device_xiaomi_sm6150-common-oss",
+        "repository":   "CipherOS-devices/android_device_xiaomi_sm6150-common",
         "target_path":  "device/xiaomi/sm6150-common",
-        "revision":     "CipherOS-R"
+        "revision":     "eleven"
     },
     {
         "remote":       "github",
