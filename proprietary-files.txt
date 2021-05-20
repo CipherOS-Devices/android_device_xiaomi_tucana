@@ -327,3 +327,6 @@ vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 
 # Vibrator firmware
 vendor/firmware/drv2604.bin
+
+# WLAN
+vendor/bin/cnss-daemon
