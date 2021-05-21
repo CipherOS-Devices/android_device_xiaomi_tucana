@@ -51,6 +51,9 @@ TARGET_KERNEL_CONFIG := vendor/lineage_tucana-oss_defconfig
 # Partitions
 BOARD_PRODUCTIMAGE_PARTITION_SIZE := 1073741824
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/xiaomi/tucana-firmware
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
