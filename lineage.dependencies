@@ -19,6 +19,12 @@
     }
     {
         "remote":       "gitlab",
+        "repository":   "alibei/android_device_xiaomi_tucana-firmware",
+        "target_path":  "device/xiaomi/tucana-firmware",
+        "revision":     "eleven"
+    }
+    {
+        "remote":       "gitlab",
         "repository":   "alibei/android_vendor_xiaomi-oss",
         "target_path":  "vendor/xiaomi",
         "revision":     "lineage-18.1"
