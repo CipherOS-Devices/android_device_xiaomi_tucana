@@ -63,8 +63,8 @@ void vendor_load_properties() {
         property_override("ro.boot.product.hardware.sku", "tucana");
         property_override("com.google.clientidbase", "android-xiaomi");
         property_override("ro.build.description", "tucana_eea-user 11 RKQ1.200826.002 V12.1.3.0.RFDEUXM release-keys");
-        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
-        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
+        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
     }
     else if (region == "GLOBAL")
     {
@@ -72,7 +72,7 @@ void vendor_load_properties() {
         property_override("ro.boot.product.hardware.sku", "tucana");
         property_override("com.google.clientidbase", "android-xiaomi");
         property_override("ro.build.description", "tucana_eea-user 11 RKQ1.200826.002 V12.1.3.0.RFDEUXM release-keys");
-        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
-        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys");
+        property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
+        property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys");
     }
 }
