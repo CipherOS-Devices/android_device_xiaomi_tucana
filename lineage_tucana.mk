@@ -16,6 +16,9 @@ PRODUCT_DEVICE := tucana
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Maintainer
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cipher.maintainer=alibei
