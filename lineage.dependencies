@@ -12,12 +12,6 @@
         "revision":     "lineage-18.1"
     }
     {
-        "remote":       "github",
-        "repository":   "alibei/android_hardware_xiaomi",
-        "target_path":  "hardware/xiaomi",
-        "revision":     "lineage-18.1"
-    }
-    {
         "remote":       "gitlab",
         "repository":   "alibei/android_device_xiaomi_tucana-firmware",
         "target_path":  "device/xiaomi/tucana-firmware",
