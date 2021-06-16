@@ -339,11 +339,6 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sm6150.so
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
 
-# DSI
-vendor/etc/dsi_xiaomi_f4_36_02_0b_fhd_cmd_display_mi.xml
-vendor/etc/dsi_xiaomi_f4_41_06_0a_fhd_cmd_display_mi.xml
-vendor/etc/dsi_xiaomi_f4_42_06_0c_fhd_cmd_display_mi.xml
-
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
