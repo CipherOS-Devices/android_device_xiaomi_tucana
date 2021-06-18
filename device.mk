@@ -83,6 +83,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Power
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Recovery
 PRODUCT_PACKAGES += \
     fastbootd
