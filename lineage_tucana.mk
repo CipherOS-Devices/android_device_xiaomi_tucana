@@ -16,6 +16,9 @@ PRODUCT_DEVICE := tucana
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 # Faceunlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
