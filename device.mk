@@ -40,6 +40,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.qcom
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(LOCAL_PATH):libinit_tucana
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
