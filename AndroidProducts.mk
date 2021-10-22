@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tucana.mk
+    $(LOCAL_DIR)/cipher_tucana.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tucana-user \
-    lineage_tucana-userdebug \
-    lineage_tucana-eng
+    cipher_tucana-user \
+    cipher_tucana-userdebug \
+    cipher_tucana-eng
