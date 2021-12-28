@@ -50,7 +50,7 @@ void property_override(char const prop[], char const value[], bool add = true) {
 }
 
 void vendor_load_properties() {
-    property_override("ro.build.description", "redfin-user 12 SP1A.211105.003 7757856 release-keys");
-    property_override("ro.build.fingerprint", "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys");
-    property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys");
+    property_override("ro.build.description", "redfin-user 12 SQ1A.211205.008 7888514 release-keys");
+    property_override("ro.build.fingerprint", "google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys");
 }
