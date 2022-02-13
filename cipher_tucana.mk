@@ -16,8 +16,7 @@ $(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cipher.maintainer=alibei
+CIPHER_MAINTAINER := alibei
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cipher_tucana
